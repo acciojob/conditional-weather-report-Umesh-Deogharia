@@ -8,14 +8,12 @@ export default function WeatherDisplay({ weather }) {
     }
   return (
     <div>
-          <p>
-              <span style={temparatureStyle}>Temparature: { temperature}</span>
-          </p>
-          
-          <p>
-              Conditions: {conditions};
-          </p>
+      <p>
+        <span style={temparatureStyle}>Temperature: {temperature}</span>
+      </p>
+
+      <p>Conditions: {conditions};</p>
     </div>
-  )
+  );
 }
 
