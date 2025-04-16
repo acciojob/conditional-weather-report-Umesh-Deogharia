@@ -9,7 +9,7 @@ export default function WeatherDisplay({ weather }) {
   return (
     <div>
           <p>
-              <span style={temparatureStyle}>Temparature : { temperature}</span>
+              <span style={temparatureStyle}>Temparature: { temperature}</span>
           </p>
           
           <p>
