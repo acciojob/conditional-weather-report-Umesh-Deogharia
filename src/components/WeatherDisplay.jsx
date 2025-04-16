@@ -12,7 +12,7 @@ export default function WeatherDisplay({ weather }) {
         <span style={temparatureStyle}>Temperature: {temperature}</span>
       </p>
 
-      <p>Conditions: {conditions};</p>
+      <p>Conditions: {conditions}</p>
     </div>
   );
 }
